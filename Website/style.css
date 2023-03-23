@@ -1,0 +1,70 @@
+body {
+  background-color:rgb(220, 220, 220);
+}
+
+h1{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin: 15px;
+}
+
+p{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+#sketch-container{
+  display: flex;
+}
+
+canvas {
+  border: solid;
+  margin: auto;
+}
+
+#sliders{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+input{
+  -webkit-appearance: none;
+  height: 20px;
+  width: 200px;
+  background: white;
+  outline: none;
+  opacity: 0.7;
+}
+
+input::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background: black;
+  cursor: pointer;
+}
+
+#buttons{
+  text-align: center;
+}
+
+button{
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 16px 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: black;
+  color: white;
+}
+
